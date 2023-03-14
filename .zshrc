@@ -119,3 +119,8 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# GOPATH
+export GOPATH="$HOME/go"
+export PATH="$GOPATH/bin:$PATH"
+
