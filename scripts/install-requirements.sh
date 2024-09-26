@@ -16,7 +16,6 @@ rm -rf ~/.oh-my-zsh
 echo "Installing Oh-My-Zsh"
 # Prevent Oh-My-Zsh from launching zsh during installation
 RUNZSH=no sh -c "$(curl -fsSL https://install.ohmyz.sh)"
-chsh -s $(which zsh)
 
 echo "Installing zsh-autosuggestions"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
