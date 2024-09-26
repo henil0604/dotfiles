@@ -29,4 +29,6 @@ chmod +x ./scripts/*
 ./scripts/install.sh
 ```
 
+next, restart your shell.
+
 and thats it!

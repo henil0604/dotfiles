@@ -3,5 +3,8 @@
 
 source $HOME/.bash-utils.sh
 
+export PATH="$PATH:$HOME/.local/bin"
+
 load_module aliases
 load_module nvm
+load_module zoxide
