@@ -14,7 +14,8 @@ sudo apt-get install -y \
 rm -rf ~/.oh-my-zsh
 
 echo "Installing Oh-My-Zsh"
-sh -c "$(curl -fsSL https://install.ohmyz.sh)"
+# Prevent Oh-My-Zsh from launching zsh during installation
+RUNZSH=no sh -c "$(curl -fsSL https://install.ohmyz.sh)"
 chsh -s $(which zsh)
 
 echo "Installing zsh-autosuggestions"
