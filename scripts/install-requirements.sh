@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# update apt
+sudo apt update -y
+
 # BASE REQUIREMENT
 sudo apt-get install -y \
 	git \
