@@ -1,3 +1,6 @@
 .git
 .gitignore
-scripts
+^/scripts
+
+^/README.*
+^/LICENSE.*
