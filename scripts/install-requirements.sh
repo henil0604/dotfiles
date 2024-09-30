@@ -25,3 +25,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/refs/heads/master/install.
 
 echo "Installing zoxide"
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+
+echo "Installing rust"
+curl https://sh.rustup.rs -sSf | sh
