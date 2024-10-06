@@ -28,3 +28,6 @@ curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh 
 
 echo "Installing rust"
 curl https://sh.rustup.rs -sSf | sh
+
+echo "Installing bun"
+curl -fsSL https://bun.sh/install | bash
