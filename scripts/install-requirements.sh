@@ -31,3 +31,6 @@ curl https://sh.rustup.rs -sSf | sh
 
 echo "Installing bun"
 curl -fsSL https://bun.sh/install | bash
+
+echo "Installing pnpm"
+npm install -g pnpm
